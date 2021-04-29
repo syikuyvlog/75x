@@ -231,26 +231,20 @@
 					'<tr>'+
 					'<td align="center" colspan="3"><a href="#" id="app2usb" class="button" onclick="toggle_payload(\'app2usb\'); return false" style="width:29%">App2USB</a>&nbsp;'+
 					'<a href="#" id="binloader" class="button" onclick="toggle_payload(\'binloader\'); return false" style="width:29%">Bin Loader</a>&nbsp;'+
-					'</tr><tr><td><br/></td></tr>'+
-					'<tr>'+
-					'<td align="center" colspan="3"><a href="#" id="disableupdates" class="button" onclick="toggle_payload(\'disableupdates\'); return false" style="width:29%">Disable Updates</a>&nbsp;'+
-					'<a href="#" id="enableupdates" class="button" onclick="toggle_payload(\'enableupdates\'); return false" style="width:29%">Enable Updates</a>&nbsp;'+
 					'<a href="#" id="ftp" class="button" onclick="toggle_payload(\'ftp\'); return false" style="width:29%">FTP</a>&nbsp;</td>'+
 					'</tr><tr><td><br/></td></tr>'+
 					'<tr>'+
-					'</tr><tr><td><br/></td></tr>'+
-					'<tr>'+
-					'<tr>'+
-					'<td align="center" colspan="3">'+
-					'<a href="#" id="backup" class="button" onclick="toggle_payload(\'backup\'); return false" style="width:29%">Backup</a>&nbsp;'+
-					'<a href="#" id="restore" class="button" onclick="toggle_payload(\'restore\'); return false" style="width:29%">Restore</a>&nbsp;'+
+					'<td align="center" colspan="3"><a href="#" id="enableupdates" class="button" onclick="toggle_payload(\'enableupdates\'); return false" style="width:29%">Enable Updates</a>&nbsp;'+
+					'<a href="#" id="disableupdates" class="button" onclick="toggle_payload(\'disableupdates\'); return false" style="width:29%">Disable Updates</a>&nbsp;'+
 					'<a href="#" id="historyblocker" class="button" onclick="toggle_payload(\'historyblocker\'); return false" style="width:29%">History Blocker</a>&nbsp;</td>'+
 					'</tr><tr><td><br/></td></tr>'+
 					'<tr>'+
+					'<td align="center" colspan="3"><a href="#" id="fancontrol" class="button" onclick="toggle_payload(\'fancontrol\'); return false" style="width:29%">Fan Control</a>&nbsp;</td>'+
+					'<a href="#" id="backup" class="button" onclick="toggle_payload(\'backup\'); return false" style="width:29%">Backup</a>&nbsp;'+
+					'<a href="#" id="restore" class="button" onclick="toggle_payload(\'restore\'); return false" style="width:29%">Restore</a>&nbsp;'+
 					'</tr><tr><td><br/></td></tr>'+
 					'<tr>'+
 					'<a href="#" id="webrte" class="button" onclick="toggle_payload(\'webrte\'); return false" style="width:29%">WebRTE</a>&nbsp;'+
-					'<a href="#" id="fancontrol" class="button" onclick="toggle_payload(\'fancontrol\'); return false" style="width:29%">Fan Control</a>&nbsp;</td>'+
 					'</tr>';
 				if(localStorage.autoExploit=="true"){document.getElementById('tog1').checked=true;document.getElementById('toggleExploit').style.display='table-row';document.getElementById('mexp').style.display='none';}else{document.getElementById('tog1').checked=false;document.getElementById('toggleExploit').style.display='none';document.getElementById('mexp').style.display='table-row';}
 			}
